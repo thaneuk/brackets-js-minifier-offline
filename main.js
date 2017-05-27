@@ -42,13 +42,6 @@ define(function (require, exports, module) {
 
     let onSaveMenuItem;
 
-    console.log(Strings);
-    console.log(preferences);
-
-    // setTimeout(() => {
-    //     minifier.exec('returnMinificationLog').done(l => console.log(l)).fail(err => console.error(err));
-    // }, 2000);
-
     function createMenuOptions() {
         let jsMinifyCmdIdentifier = 'gcMin.cm',
             jsMinifyEditCmdIdentifier = 'gcMin.edit.cm',
