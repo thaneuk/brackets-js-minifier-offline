@@ -1,0 +1,22 @@
+{
+  "name": "js-minifier-offline-google-closure",
+  "title": "JavaScript Minifier",
+  "description": "Minify JavaScript using the offline Google closure compiler",
+  "homepage": "https://github.com/thaneuk/brackets-js-minifier-offline/",
+  "version": "0.1.0",
+  "author": "Gregory Jackson lolwtf.gj@gmail.com (https://github.com/thaneuk/)",
+  "license": "MIT",
+  "categories": "editing",
+  "engines": {
+    "brackets": ">=1.9"
+  },
+  "i18n": [
+    "en"
+  ],
+  "keywords": [
+    "ecmaScript",
+    "javascript",
+    "minifier",
+    "minification"
+  ]
+}
