@@ -118,7 +118,7 @@ function minifyFile(extensionPath, filename, options) {
 
                 deleteFileSync(newFullName);
 
-                childProcess.exec(`java -jar ${extensionPath}${compilerJar} ${optimizations} --js "${filename}" --js_output_file "${newFullName}"`, {
+                childProcess.exec(`java -jar "${extensionPath}${compilerJar} ${optimizations}" --js "${filename}" --js_output_file "${newFullName}"`, {
                     timeout: 5000
                 }, error => {
                     if (!error) {
