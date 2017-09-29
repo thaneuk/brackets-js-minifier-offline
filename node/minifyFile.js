@@ -29,7 +29,7 @@ const
     fs = require('fs'),
     path = require('path'),
     childProcess = require('child_process'),
-    compilerJar = 'google.closure.compiler/closure-compiler-v20170521.jar',
+    compilerJar = 'google.closure.compiler/closure-compiler-v20170910.jar',
     WHITE = ' --compilation_level WHITESPACE_ONLY ',
     SIMPLE = ' --compilation_level SIMPLE_OPTIMIZATIONS ',
     ADV = ' --compilation_level ADVANCED_OPTIMIZATIONS ';
